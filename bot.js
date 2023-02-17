@@ -1,5 +1,6 @@
 require("dotenv").config();
 const { Client, Events, GatewayIntentBits } = require("discord.js");
+const keepAlive = require("./server");
 
 const maxAttempts = 3;
 const quoteApiEndpoint = "https://zenquotes.io/api/random";
@@ -123,4 +124,5 @@ client.on("messageCreate", msg => {
 	}
 });
 
+keepAlive();
 client.login(botToken);
