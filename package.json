@@ -5,7 +5,10 @@
   "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ."
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": "v18.14.1"
   },
   "author": "Yuehan",
   "license": "MIT",
