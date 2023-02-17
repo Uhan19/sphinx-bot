@@ -2,7 +2,7 @@
   "name": "sphinx-bot",
   "version": "1.0.0",
   "description": "discord bot that will automatically generate riddles",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
@@ -11,7 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.7.1",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
   },
   "devDependencies": {
     "eslint": "^8.34.0"
